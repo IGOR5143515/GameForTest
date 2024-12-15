@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\UnrealGames\\GameForTest\\",
+  "WorkspaceRootPath": "D:\\GitHub\\Game\\GameForTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66BA2D12-5A28-3948-863D-D511165DE1D7}|Intermediate\\ProjectFiles\\GameForTest.vcxproj|D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Private\\TestRotateActor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{66BA2D12-5A28-3948-863D-D511165DE1D7}|Intermediate\\ProjectFiles\\GameForTest.vcxproj|solutionrelative:Source\\GameForTest\\Private\\TestRotateActor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7DB2C986-4B74-31C0-8E38-683BB4946866}|Intermediate\\ProjectFiles\\GameForTest.vcxproj|D:\\GitHub\\Game\\GameForTest\\Source\\GameForTest\\Private\\TestRotateActor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7DB2C986-4B74-31C0-8E38-683BB4946866}|Intermediate\\ProjectFiles\\GameForTest.vcxproj|solutionrelative:Source\\GameForTest\\Private\\TestRotateActor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66BA2D12-5A28-3948-863D-D511165DE1D7}|Intermediate\\ProjectFiles\\GameForTest.vcxproj|D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Public\\TestRotateActor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{66BA2D12-5A28-3948-863D-D511165DE1D7}|Intermediate\\ProjectFiles\\GameForTest.vcxproj|solutionrelative:Source\\GameForTest\\Public\\TestRotateActor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7DB2C986-4B74-31C0-8E38-683BB4946866}|Intermediate\\ProjectFiles\\GameForTest.vcxproj|D:\\GitHub\\Game\\GameForTest\\Source\\GameForTest\\Public\\TestRotateActor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7DB2C986-4B74-31C0-8E38-683BB4946866}|Intermediate\\ProjectFiles\\GameForTest.vcxproj|solutionrelative:Source\\GameForTest\\Public\\TestRotateActor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TestRotateActor.cpp",
-              "DocumentMoniker": "D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Private\\TestRotateActor.cpp",
+              "DocumentMoniker": "D:\\GitHub\\Game\\GameForTest\\Source\\GameForTest\\Private\\TestRotateActor.cpp",
               "RelativeDocumentMoniker": "Source\\GameForTest\\Private\\TestRotateActor.cpp",
-              "ToolTip": "D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Private\\TestRotateActor.cpp",
+              "ToolTip": "D:\\GitHub\\Game\\GameForTest\\Source\\GameForTest\\Private\\TestRotateActor.cpp",
               "RelativeToolTip": "Source\\GameForTest\\Private\\TestRotateActor.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAnAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-15T15:07:30.701Z",
               "EditorCaption": ""
@@ -37,14 +37,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "TestRotateActor.h",
-              "DocumentMoniker": "D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Public\\TestRotateActor.h",
+              "DocumentMoniker": "D:\\GitHub\\Game\\GameForTest\\Source\\GameForTest\\Public\\TestRotateActor.h",
               "RelativeDocumentMoniker": "Source\\GameForTest\\Public\\TestRotateActor.h",
-              "ToolTip": "D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Public\\TestRotateActor.h",
+              "ToolTip": "D:\\GitHub\\Game\\GameForTest\\Source\\GameForTest\\Public\\TestRotateActor.h",
               "RelativeToolTip": "Source\\GameForTest\\Public\\TestRotateActor.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-15T15:07:29.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T15:07:29.8Z"
             }
           ]
         }
