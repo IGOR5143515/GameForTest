@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "D:\\UnrealGames\\GameForTest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Private\\MyGameModeBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Source\\GameForTest\\Private\\MyGameModeBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Public\\MyGameModeBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Source\\GameForTest\\Public\\MyGameModeBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Private\\MyPlayerController.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Source\\GameForTest\\Private\\MyPlayerController.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Public\\MyPlayerController.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Source\\GameForTest\\Public\\MyPlayerController.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66BA2D12-5A28-3948-863D-D511165DE1D7}|Intermediate\\ProjectFiles\\GameForTest.vcxproj|D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Private\\MyGameCharacter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{66BA2D12-5A28-3948-863D-D511165DE1D7}|Intermediate\\ProjectFiles\\GameForTest.vcxproj|solutionrelative:Source\\GameForTest\\Private\\MyGameCharacter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{66BA2D12-5A28-3948-863D-D511165DE1D7}|Intermediate\\ProjectFiles\\GameForTest.vcxproj|D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Private\\TestRotateActor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{66BA2D12-5A28-3948-863D-D511165DE1D7}|Intermediate\\ProjectFiles\\GameForTest.vcxproj|solutionrelative:Source\\GameForTest\\Private\\TestRotateActor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66BA2D12-5A28-3948-863D-D511165DE1D7}|Intermediate\\ProjectFiles\\GameForTest.vcxproj|D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Public\\TestRotateActor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{66BA2D12-5A28-3948-863D-D511165DE1D7}|Intermediate\\ProjectFiles\\GameForTest.vcxproj|solutionrelative:Source\\GameForTest\\Public\\TestRotateActor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66BA2D12-5A28-3948-863D-D511165DE1D7}|Intermediate\\ProjectFiles\\GameForTest.vcxproj|D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Public\\MyGameCharacter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{66BA2D12-5A28-3948-863D-D511165DE1D7}|Intermediate\\ProjectFiles\\GameForTest.vcxproj|solutionrelative:Source\\GameForTest\\Public\\MyGameCharacter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,6 +47,83 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MyGameModeBase.cpp",
+              "DocumentMoniker": "D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Private\\MyGameModeBase.cpp",
+              "RelativeDocumentMoniker": "Source\\GameForTest\\Private\\MyGameModeBase.cpp",
+              "ToolTip": "D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Private\\MyGameModeBase.cpp",
+              "RelativeToolTip": "Source\\GameForTest\\Private\\MyGameModeBase.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-27T15:05:31.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyGameModeBase.h",
+              "DocumentMoniker": "D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Public\\MyGameModeBase.h",
+              "RelativeDocumentMoniker": "Source\\GameForTest\\Public\\MyGameModeBase.h",
+              "ToolTip": "D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Public\\MyGameModeBase.h",
+              "RelativeToolTip": "Source\\GameForTest\\Public\\MyGameModeBase.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-27T15:05:31.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyPlayerController.cpp",
+              "DocumentMoniker": "D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Private\\MyPlayerController.cpp",
+              "RelativeDocumentMoniker": "Source\\GameForTest\\Private\\MyPlayerController.cpp",
+              "ToolTip": "D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Private\\MyPlayerController.cpp",
+              "RelativeToolTip": "Source\\GameForTest\\Private\\MyPlayerController.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-27T15:04:11.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyPlayerController.h",
+              "DocumentMoniker": "D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Public\\MyPlayerController.h",
+              "RelativeDocumentMoniker": "Source\\GameForTest\\Public\\MyPlayerController.h",
+              "ToolTip": "D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Public\\MyPlayerController.h",
+              "RelativeToolTip": "Source\\GameForTest\\Public\\MyPlayerController.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-27T15:04:10.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyGameCharacter.cpp",
+              "DocumentMoniker": "D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Private\\MyGameCharacter.cpp",
+              "RelativeDocumentMoniker": "Source\\GameForTest\\Private\\MyGameCharacter.cpp",
+              "ToolTip": "D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Private\\MyGameCharacter.cpp",
+              "RelativeToolTip": "Source\\GameForTest\\Private\\MyGameCharacter.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-27T14:28:07.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MyGameCharacter.h",
+              "DocumentMoniker": "D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Public\\MyGameCharacter.h",
+              "RelativeDocumentMoniker": "Source\\GameForTest\\Public\\MyGameCharacter.h",
+              "ToolTip": "D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Public\\MyGameCharacter.h",
+              "RelativeToolTip": "Source\\GameForTest\\Public\\MyGameCharacter.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-27T14:28:06.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "TestRotateActor.cpp",
               "DocumentMoniker": "D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Private\\TestRotateActor.cpp",
               "RelativeDocumentMoniker": "Source\\GameForTest\\Private\\TestRotateActor.cpp",
@@ -30,12 +131,11 @@
               "RelativeToolTip": "Source\\GameForTest\\Private\\TestRotateActor.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-15T15:07:30.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T15:07:30.701Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "TestRotateActor.h",
               "DocumentMoniker": "D:\\UnrealGames\\GameForTest\\Source\\GameForTest\\Public\\TestRotateActor.h",
               "RelativeDocumentMoniker": "Source\\GameForTest\\Public\\TestRotateActor.h",
@@ -43,8 +143,7 @@
               "RelativeToolTip": "Source\\GameForTest\\Public\\TestRotateActor.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-15T15:07:29.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T15:07:29.8Z"
             }
           ]
         }
