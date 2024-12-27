@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "MyGameCharacter.generated.h"
 
+
+class UCameraComponent;
 UCLASS()
 class GAMEFORTEST_API AMyGameCharacter : public ACharacter
 {
@@ -25,5 +27,10 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
+	UCameraComponent* CameraComponent;
 
+	void MoveForward(float Value);
+	void MoveRight(float Value);
 };
