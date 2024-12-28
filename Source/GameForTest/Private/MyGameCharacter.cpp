@@ -4,6 +4,7 @@
 #include "MyGameCharacter.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/Pawn.h"
+#include "GameFramework/CharacterMovementComponent.h"
 
 // Sets default values
 AMyGameCharacter::AMyGameCharacter()
@@ -42,6 +43,10 @@ void AMyGameCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	PlayerInputComponent->BindAxis("Pitch", this, &APawn::AddControllerPitchInput);
 
 	PlayerInputComponent->BindAction("Jump", IE_Pressed,this, &ACharacter::Jump);
+
+	PlayerInputComponent->BindAction("Run", IE_Pressed, this, &AMyGameCharacter::StartRunning);
+	PlayerInputComponent->BindAction("Run", IE_Released, this, &AMyGameCharacter::StopRunning);
+
 }
 
 void AMyGameCharacter::MoveForward(float Value)
@@ -52,5 +57,17 @@ void AMyGameCharacter::MoveForward(float Value)
 void AMyGameCharacter::MoveRight(float Value)
 {
 	AddMovementInput(GetActorRightVector(), Value);
+}
+
+void AMyGameCharacter::StartRunning()
+{
+	CharacterWalkSpeed = GetCharacterMovement()->MaxWalkSpeed;
+	GetCharacterMovement()->MaxWalkSpeed=CharacterRunSpeed;
+
+}
+
+void AMyGameCharacter::StopRunning()
+{
+	GetCharacterMovement()->MaxWalkSpeed = CharacterWalkSpeed;
 }
 
