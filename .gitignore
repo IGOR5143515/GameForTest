@@ -1,7 +1,10 @@
 Binaries
+Build
 DerivedDataCache
 Intermediate
 Saved
+.vs/
+.idea/
 *.VC.db
 *.opensdf
 *.opendb
@@ -9,6 +12,5 @@ Saved
 *.suo
 *.xcodeproj
 *.xcworkspace
-.vs/
 *.pch
 *.ipch
