@@ -1,9 +1,11 @@
+Binaries
 Build
 DerivedDataCache
 Intermediate
 Saved
 .vs/
 .idea/
+.sln
 *.VC.db
 *.opensdf
 *.opendb
