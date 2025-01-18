@@ -5,11 +5,13 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/Pawn.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "MyPlayerController.h"
+#include "CStaticMesh/CustomStaticmesh.h"
 
 // Sets default values
 AMyGameCharacter::AMyGameCharacter()
 {
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+ 	
 	PrimaryActorTick.bCanEverTick = true;
 	CameraComponent = CreateDefaultSubobject<UCameraComponent>("CameraComponent");
 	CameraComponent->SetupAttachment(GetRootComponent());
@@ -24,14 +26,14 @@ void AMyGameCharacter::BeginPlay()
 	
 }
 
-// Called every frame
+
 void AMyGameCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	MakeTrace();
 }
 
-// Called to bind functionality to input
 void AMyGameCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
@@ -69,5 +71,32 @@ void AMyGameCharacter::StartRunning()
 void AMyGameCharacter::StopRunning()
 {
 	GetCharacterMovement()->MaxWalkSpeed = CharacterWalkSpeed;
+}
+
+void AMyGameCharacter::MakeTrace()
+{
+	
+	FVector Location;
+	FRotator Rotation;
+	Controller->GetPlayerViewPoint(Location,Rotation);
+
+	FVector End = Location + (Rotation.Vector() * 250);
+	FCollisionQueryParams  CCH;
+	CCH.AddIgnoredActor(this);
+
+	if (!GetWorld())return;
+	bool IsHit = GetWorld()->LineTraceSingleByChannel(HitResult, Location, End, ECC_Visibility, CCH);
+
+	if (IsHit) {
+		UCustomStaticmesh* mesh = Cast<UCustomStaticmesh>(HitResult.GetComponent());
+
+		//if (!mesh||mesh->GetID()==0||!mesh->IsPressed||MachineSettingsString.Len()<4)return;
+		if (!mesh || !mesh->IsPressed)return;
+		MachineSettingsString.Append(mesh->GetSymbol());
+		mesh->IsPressed = true;
+
+	}
+	UE_LOG(LogTemp, Error, TEXT("%s"), *MachineSettingsString);
+
 }
 

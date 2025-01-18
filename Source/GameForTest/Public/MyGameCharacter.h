@@ -29,12 +29,17 @@ public:
 	UCameraComponent* CameraComponent;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Settings")
-	float CharacterRunSpeed = 1000.0f;
-	//Functions
-	float CharacterWalkSpeed;
+	float CharacterRunSpeed = 1000.0f;		//Set speed in blueprint
+	
+	float CharacterWalkSpeed;	// to save base speed
 	void MoveForward(float Value);
 	void MoveRight(float Value);
 	void StartRunning();
 	void StopRunning();
 
+	void MakeTrace();
+	
+private:
+	FHitResult HitResult;
+	FString MachineSettingsString;
 };
