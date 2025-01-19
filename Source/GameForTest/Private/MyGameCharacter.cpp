@@ -31,7 +31,7 @@ void AMyGameCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	MakeTrace();
+	
 }
 
 void AMyGameCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -48,6 +48,8 @@ void AMyGameCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
 	PlayerInputComponent->BindAction("Run", IE_Pressed, this, &AMyGameCharacter::StartRunning);
 	PlayerInputComponent->BindAction("Run", IE_Released, this, &AMyGameCharacter::StopRunning);
+
+	PlayerInputComponent->BindAction("Action", IE_Pressed, this, &AMyGameCharacter::MakeTrace);
 
 }
 
@@ -91,12 +93,13 @@ void AMyGameCharacter::MakeTrace()
 		UCustomStaticmesh* mesh = Cast<UCustomStaticmesh>(HitResult.GetComponent());
 
 		//if (!mesh||mesh->GetID()==0||!mesh->IsPressed||MachineSettingsString.Len()<4)return;
-		if (!mesh || !mesh->IsPressed)return;
+		if (!mesh || mesh->IsPressed|| mesh->GetID() == 0)return;
+
 		MachineSettingsString.Append(mesh->GetSymbol());
 		mesh->IsPressed = true;
 
-	}
 	UE_LOG(LogTemp, Error, TEXT("%s"), *MachineSettingsString);
+	}
 
 }
 
