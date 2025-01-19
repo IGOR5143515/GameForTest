@@ -7,6 +7,7 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "MyPlayerController.h"
 #include "CStaticMesh/CustomStaticmesh.h"
+#include "Components/GeneratorComponent.h"
 
 // Sets default values
 AMyGameCharacter::AMyGameCharacter()
@@ -16,6 +17,7 @@ AMyGameCharacter::AMyGameCharacter()
 	CameraComponent = CreateDefaultSubobject<UCameraComponent>("CameraComponent");
 	CameraComponent->SetupAttachment(GetRootComponent());
 
+	Generator = CreateDefaultSubobject<UGeneratorComponent>("Generator");
 
 }
 
@@ -50,6 +52,8 @@ void AMyGameCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	PlayerInputComponent->BindAction("Run", IE_Released, this, &AMyGameCharacter::StopRunning);
 
 	PlayerInputComponent->BindAction("Action", IE_Pressed, this, &AMyGameCharacter::MakeTrace);
+
+	PlayerInputComponent->BindAction("TestGenerateButton", IE_Pressed, Generator, &UGeneratorComponent::Generate);
 
 }
 

@@ -6,7 +6,7 @@
 #include "GameFramework/Character.h"
 #include "MyGameCharacter.generated.h"
 
-
+class UGeneratorComponent;
 class UCameraComponent;
 UCLASS()
 class GAMEFORTEST_API AMyGameCharacter : public ACharacter
@@ -25,6 +25,8 @@ protected:
 	
 
 public:	
+	UGeneratorComponent* Generator;
+
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
 	UCameraComponent* CameraComponent;
 

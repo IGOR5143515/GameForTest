@@ -1,10 +1,22 @@
-// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "GeneratorComponent.generated.h"
+
+enum class LvlHelpMachine {
+	ONE,
+	TWO,
+	THREE,
+	FOR
+};
+
+struct Settings {
+	FString CurrentSettingsString;
+	int Points;
+	LvlHelpMachine HelpMachine = LvlHelpMachine::ONE;
+};
 
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
@@ -13,16 +25,22 @@ class GAMEFORTEST_API UGeneratorComponent : public UActorComponent
 	GENERATED_BODY()
 
 public:	
-	// Sets default values for this component's properties
+	
+
 	UGeneratorComponent();
-
 protected:
-	// Called when the game starts
 	virtual void BeginPlay() override;
-
-public:	
-	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-		
+public:	
+	void Generate();
+	float GetPercent(FString string);
+	FString MakeHelp(Settings setting);
+
+
+	Settings GetSettings() { return NewSettings; }
+private:
+	Settings NewSettings;
+	FString Symbols = "XYZOQT";
+	
 };
